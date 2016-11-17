@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 日记列表 -->
+
+    <include layout="@layout/activity_list" />
+
+    <!-- 设置密码 -->
+
+    <include layout="@layout/activity_setting" />
+
+</FrameLayout>

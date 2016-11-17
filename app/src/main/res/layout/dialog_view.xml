@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tip_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提示"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp" >
+
+        <Button
+            android:id="@+id/btn_dialog_cancel"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/cancel_button_icon"
+            android:text="取 消"
+            android:textSize="19sp"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ok_button_icon"
+            android:text="确 定" 
+            android:textSize="19sp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+</LinearLayout>
